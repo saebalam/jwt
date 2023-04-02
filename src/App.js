@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app">
       {!loggedin ? (
         <div className="form">
           email - test <br />
