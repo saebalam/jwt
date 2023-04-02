@@ -1,7 +1,8 @@
+*{
+  background-color: #aac6c6;
+}
 .app {
   text-align: center;
-  background-color: #aac6c6;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
