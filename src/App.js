@@ -11,7 +11,7 @@ function App() {
 
   const handleSubmit = () => {
     axios
-      .post("http://localhost:5000/login", { email: email, password: password })
+      .post("https://rich-pear-walkingstick-robe.cyclic.app/login", { email: email, password: password })
       .then((response) => {
         if (response.data.loggedin) {
           setLoggedIn(true);

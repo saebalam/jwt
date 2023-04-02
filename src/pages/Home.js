@@ -7,7 +7,7 @@ const Home = ({logout}) => {
 
   const getData = () => {
     axios
-      .get("http://localhost:5000/getUserInfo", {
+      .get("https://rich-pear-walkingstick-robe.cyclic.app/getUserInfo", {
         headers: { token: localStorage.getItem("token") },
       })
       .then((res) => {
